@@ -1,0 +1,6 @@
+config SOEM
+	bool "Simple Open EtherCAT Master Library (SOEM)"
+	default y
+	select POSIX_TIMERS
+	help
+	  wip
